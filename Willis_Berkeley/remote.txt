@@ -1,2 +1,0 @@
-origin	https://github.com/bwillis2/comp3410-pa1.git (fetch)
-origin	https://github.com/bwillis2/comp3410-pa1.git (push)
