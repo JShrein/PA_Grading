@@ -1,3 +1,6 @@
 [submodule "Black_Evan/comp3410-pa1"]
 	path = Black_Evan/comp3410-pa1
 	url = https://github.com/evanrblack/comp3410-pa1.git
+[submodule "Fisher_Kevin/comp3410-pa1"]
+	path = Fisher_Kevin/comp3410-pa1
+	url = https://github.com/megabytefisher/comp3410-pa1.git
