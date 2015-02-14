@@ -1,0 +1,12 @@
+PART 1:
+Total: -0
+
+You demonstrate considerable skill in MIPS and I can appreciate your recursive implementation. however I must comment that the recursive design is MUCH less efficient than the dynamic programming approach.
+
+PART 2:
+Total: -0
+
+Nicely done
+
+PART 3:
+Total: 

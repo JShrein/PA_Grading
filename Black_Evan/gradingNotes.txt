@@ -1,0 +1,22 @@
+PART 1:
+Total: -0
+Good style and comments (though ideally each block should have at least 1 comment (lines 35,36 even though its a simple operation to read value I, and you when you look at this later, don't want to look up syscall codes))
+
+Excellent work on this portion.  The logic is good and it works well for each of my test cases.
+
+PART 2:
+Total: -8
+Excellent style and commenting
+
+Functions properly
+
+-8 The problem calls for storing results to memory (instead of registers) and then retrieving them for printing, so you would have needed to declare a set of variables or an array and use sw to store your calculation results in memory and la or lw to retrieve them
+
+PART 3:
+Total: -0
+
+Works well and does what its supposed to, but why not just count by 2's instead of dividing and checking remainder?  You can eliminate lines 15 and 16, shift a couple of things, and increase efficiency without adding anything new.  In today's world and for this program it doesn't really matter, but if you're doing many calculations per second or per frame then it counts.
+
+
+Total Loss:
+-8

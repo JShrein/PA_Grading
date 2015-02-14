@@ -1,0 +1,34 @@
+PART 1:
+-x Not limited to 9 fibonacci numbers.  Very dangerous to allow the user to exceed the bounds of the array set up in the beginning because you may overwrite other important addresses.  May or may not force the printing of unintended characters, depending on whether or not one of the fibonacci numbers writes over any of the print strings.
+
+I suspect that you intended to jump back to the "check:" label if line 40, if $v0 > 9 evaluates to true in order to get input again, but since it points to done1 that line doesn't really do anything.  If that statement is true, it goes to line 41.  If that statement is true it goes to line 41
+
+-x Comments are OK, but more are always better because assembly is so hard to read.
+
+PART 2:
+Line 36 loads $a1 with the integer 256 but $a1 is never used again for anything
+Careful with division if user enters 0 for 2nd number. Division and mod by 0 are both undefined.  Your program doesn't crash, but it easily could if you used the pseudoinstruction div $result, $op1, $op2
+
+You're using la to load the values in $t1 and $t2 when you want to print operands
+la $a0, ($t1)
+This is unnecessary and sort of esoteric way to access the values in $t1 and $t2 (which are NOT addresses)
+move $a0, $t1 is a better way to move the values.
+
+The move pseudo instruction moves the contents of one register into another register.
+	move $1, $2
+translates to
+	add $1, $2, $0
+
+Load Address (la)
+	la $a0,address
+translates to
+  lui $at, 4097 (0x1001 → upper 16 bits of $at).
+  ori $a0,$at,disp 
+where the immediate (“disp”) is the number of bytes between the first data location (always 0x 1001 0000) and the address of the first byte in the string.
+
+Nicely organized and works well.
+
+PART 3:
+
+Where is part 3???
+-30

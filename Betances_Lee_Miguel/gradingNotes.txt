@@ -1,0 +1,31 @@
+PART 1:
+-x Not limited to 9 fibonacci numbers.  Very dangerous to allow the user to exceed the bounds of the array set up in the beginning because you may overwrite other important addresses.  May or may not force the printing of unintended characters, depending on whether or not one of the fibonacci numbers writes over any of the print strings.
+
+#load immediate call 5 and
+#do
+aren't very descriptive but you have plenty of comments, no points lost.
+
+PART 2:
+-8 Part of the exercise is to store arithmetic results in memory (instead of just using registers), then to retrieve them from memory for printing.
+Use: 
+	li $v0 10
+	syscall
+for graceful exit.  Mars gives no errors but other simulators give errors if you don't specifically exit the program
+
+Heading asks for Title and description but I suppose "Assembly Arithmetic Calculator" functions as both.
+
+PART 3:
+-x Not enough comments III
+
+Inefficient register usage.  If you follow execution 1 step at a time and look at $t2 - $t5 notice that $t2 and $t3 are basically always the same throughout the program, and the same for $t4 and $t5
+
+You could also limit the number of variables you're using.  You always load the value in storeValue but you never put anyting back in storeValue, so its a constant and could be stored in a register.
+
+Instruction:
+	li $t6, 64
+sort of defeats the purpose.  What if the program asked for odd sum from 1 to 75293....you won't want to calculate that by hand but its clear that you need a loop that runs (int)n/2 times (ie., for 1 to 15 you get (int)15/2 sums 4 9 16 25 36 49 64)
+
+Instruction:
+	j while
+is not useful.  Its an unconditional jump to the next line, which was going to happen anyway.  No change in execution if you remove that line.
+
