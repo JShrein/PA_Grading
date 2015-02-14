@@ -88,3 +88,9 @@
 [submodule "Betances_Lee_Miguel/comp3410-pa1"]
 	path = Betances_Lee_Miguel/comp3410-pa1
 	url = https://github.com/mbtncsle/comp3410-pa1.git
+[submodule "Sagardia_Gabriel/comp3410-pa1"]
+	path = Sagardia_Gabriel/comp3410-pa1
+	url = https://github.com/gsgardia/comp3410-pa1.git
+[submodule "Hiller_Justin/comp3410-pa1"]
+	path = Hiller_Justin/comp3410-pa1
+	url = https://github.com/jchiller165/comp3410-pa1.git
