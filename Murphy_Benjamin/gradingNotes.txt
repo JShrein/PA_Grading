@@ -1,5 +1,32 @@
+Your PA was fun to grade because you put imagination into it and did interesting things.  Maybe you are ready for more difficult problems, but the simple stuff that's missing is costing you so be sure to implement all of the required stuff before adding the fun stuff.
+
 PART 1:
+Total: -0
+
+Nice Job! I like the dynamic memory allocation, though an upper bound input check would still be useful because it breaks for n > 46.  If you want the program to be even more efficient, you need no more than 2 registers to store old fibonacci numbers.  Good work in any case.
+
+Style could be a bit cleaner, but you have plenty of comments and  your code is good.
 
 PART 2:
+Total: -12
+
+-8 Instructions require storing results to memory and retrieving them later for printing.
+-4 No concluding message
 
 PART 3:
+Total: -0
+
+Good work
+
+Careful when using the stack.  
+
+To push onto the stack:
+addi $sp, $sp, -4
+sw....
+
+To pop:
+lw....
+addi $sp, $sp, 4
+
+
+Total Loss: -12

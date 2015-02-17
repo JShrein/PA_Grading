@@ -1,5 +1,24 @@
 PART 1:
+Total: -0
+
+Good job, program works well under all test cases.
 
 PART 2:
+Total: -16
+
+Please read instructions thoroughly
+
+-4 Instructions require a printed introduction including name, title, and purpose of program
+
+-8 Instructions require that your calculations be stored in memory and retrieved from memory for printing.
+
+-4 Instructions require a printed concluding message.
 
 PART 3:
+Total: -6
+
+-6 Instructions require that you store partial sum in memory and retrieve it each time you add a number to it.
+
+Otherwise program is very good....simple and efficient.
+
+Total Loss: -22

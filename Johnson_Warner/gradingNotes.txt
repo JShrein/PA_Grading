@@ -1,5 +1,34 @@
 PART 1:
+Total: -2
+
+Mostly Nice Work
+
+I like the dynamic programming approach...very fast, very efficient.  
+
+Line 55 seems a bit odd to me.  Why test if $0 < 0 instead of using unconditional jump 'j'
+
+Would be even more awesome if no extra delimiter were printed
+
+Should probably include an upper limit.  Even though there's no array to exceed the bounds of, the fibonacci numbers quickly grow beyond a signed 32 bit representation.  
+
+-2 Should always test boundary cases.  If you enter a number < 2 the program still prints the first 2 fibonacci numbers.
 
 PART 2:
+Total: -8
+
+Again, nice work.  You're using more advanced things than are required of you, but be careful to make sure you implement everything the instructions ask for.
+
+-8 For this problem, you are required to store your calculation results in memory and retrieve them from memory for printing.
+
+Youre conclusion message could probably use a "\n" but no points lost.
 
 PART 3:
+Total: -10
+
+-6 Must store partial sum in memory
+
+-2 Line 23: This line works, but indirect addressing is an improper way to move a value to $a0.  By using ($s0) you're saying "load address of $s0", but $s0 is NOT an address, its a literal value.....It works but 'move' or 'add' would be more proper.
+
+-2 Missing some comments
+
+Total Loss: -20

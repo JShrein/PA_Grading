@@ -1,5 +1,30 @@
 PART 1:
+Total: -7
+
+-5 Because your input loop keeps adding $s5 to itself, if the user enters a negative number, then a valid number, line 36 add them together and you get less than you wanted to print.
+
+-2 Should print from 1 to 9, but your line 37 allows user to input 0 and still get valid output.
 
 PART 2:
+Total: -2
+
+-2 Lines 30 and 37 are inherently dangerous
+If you want to move from $v0 to $s0 or $s1, consider using:
+	add $s0, $zero, $v0
+instead of:
+	add $s0, $s0, $v0
+It works in this case, but if this code were part of a loop or a larger program it would break because you would be adding whatever happened to be in that register at the time.
+
+Loading all memory addresses into registers in the beginning is a bit inefficient because you can simply load them into the same register whenever you're ready to use them. OK though, no points lost.
+
+All program parts function correctly
 
 PART 3:
+Total: -1
+
+Nice Work!
+Simple, direct, and efficient
+
+-1 for missing comments
+
+Total Loss: -10

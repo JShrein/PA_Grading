@@ -1,5 +1,28 @@
-PART 1:
+PART 1: 
+Total: -0
+
+Very good
+Simple, efficient, and effective changes
+Prints proper error message and prompts user for input again
+
 
 PART 2:
+Total: -0
+
+Style and commenting are sufficient, though it would be a bit easier to read if it were separated into logical blocks
+Use of registers could be more efficient (by reusing the same registers to operate, then store, operate then store, etc instead of grouping all operations together and all memory storage together) but is OK.
+
 
 PART 3:
+Total: -6
+
+-6 Program works well, but intermediate result(s) are to be stored and retrieved from memory
+
+Use:
+	li $v0, 10
+	syscall
+for graceful exit, good style even though no errors/exceptions thrown 
+(though Mars will say -- program is finished running (dropped off bottom) -- )
+
+
+Total Loss: -6

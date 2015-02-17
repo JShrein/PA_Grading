@@ -1,5 +1,26 @@
 PART 1:
+Total: -5
+
+Prompt is misleading, size of array is fixed.
+
+-5 Accepting input greater than declared array size is dangerous because your writing to memory thats out of bounds.
 
 PART 2:
+Total: -14
+
+-8 Instructions require that you store your results to memory (not registers) and retrieve them from memory in order to print.
+
+-4 Instructions require a concluding message
+
+-2 could use some more comments
 
 PART 3:
+Total: -8
+
+-6 Must store partial sum in memory each iteration and retrieve it for printing
+
+-2 Almost no comments
+
+Otherwise, program is good...very simple and efficient.
+
+Total Loss: -27

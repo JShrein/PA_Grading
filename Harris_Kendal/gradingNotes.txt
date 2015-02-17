@@ -1,5 +1,24 @@
-PART 1:
+Excellent commenting in all three parts, please keep that up.
 
-PART 2:
+PART 1: 
+Total: -0
+
+Program runs correctly and produced correct results.
+
+PART 2: 
+Total: -10
+
+-2 Lines 61 and 62:
+It is not necessary to use 'la $ax, ($sx)'.  MIPS is perfectly happy to multiply numbers from registers in the $sx range.  More importantly, this is not a good way to move the numbers to those registers.  'la' is meant to load an address into a register.  Your $s1 and $s2 do not hold meaningful addresses, they hold literal values.  When you use ($s1) you're saying get me that address of $s1, which happens to be the literal, and load it into $a0.  'move' or 'add' would be more proper.
+
+-8 The instructions require that your intermediate results are stored into memory, and are later retrieved for printing.  You've declared an array "values", presumably for this purpose, and you've loaded the address of "values" into $s0, but you never use $s0 after that.
+
+Other portions of the program function correctly.
 
 PART 3:
+Total: -1
+
+-1 Line 37 and 38, notice these are doing the exact same thing each time through the loop.  Why not just use your counter as your odds?
+
+Total Loss: -11
+

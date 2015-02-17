@@ -94,3 +94,6 @@
 [submodule "Hiller_Justin/comp3410-pa1"]
 	path = Hiller_Justin/comp3410-pa1
 	url = https://github.com/jchiller165/comp3410-pa1.git
+[submodule "Aldafari_Omer/comp3410-pa1"]
+	path = Aldafari_Omer/comp3410-pa1
+	url = https://github.com/aldafari/comp3410-pa1.git

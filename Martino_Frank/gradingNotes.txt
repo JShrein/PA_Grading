@@ -1,5 +1,26 @@
 PART 1:
+Total: -8
+
+-5 Accepts input greater than 9.  This allows storing numbers beyond the bounds of the array.
+-1 No comments for your changes.
+-2 Line 34: la $s6, ($v0)  This works but is improper way to move a number between registers.  Use 'move' or 'add' instead.
 
 PART 2:
+Total: -18
+
+-4 Lines 69-71: Its possible to multiply through repeated addition, but you left out some considerations.  What happens on multiply by negative number? If 1st operand is negative and 2nd is positive, it works.  If 1st is pos. and 2nd is neg., it fails.  Also, multiplication by 2nd operand of 0 fails because you've already initialized $t1 with the 1st operand.  The 'mul' opcode is much easier.
+
+-8 Instructions require that you store each result in memory and retrieve each result later for printing.  You've declared the variables for this, but never use them.
+
+-2 Lines 44, 58, 77: la $a0, ($t1)  Use 'move' or 'add' instead
+
+-4 Instructions require printing a conclusion message
 
 PART 3:
+Total: -2
+
+-2 make sure to add sufficient comments.
+
+Very good, simple, and efficient
+
+Total Loss: -28

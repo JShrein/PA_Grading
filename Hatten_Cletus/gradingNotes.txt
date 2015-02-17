@@ -1,5 +1,27 @@
 PART 1:
+Total: -3
+
+-1 No need to move $t0 to $s0 through $a0, its position in either $t0 or $s0 is ok, but no need for all the moving.
+
+Works correctly for correct input.
+Prints 1 number for input < 1. OK
+-2 Prints nothing for input greater than 9.  Would be more appropriate to use a branch to prompt for input again or to simply force printing of 9 numbers only.
 
 PART 2:
+Total: -10
+
+-8 Fails to store arithmetic results in memory and retrieve them for printing.
+
+Otherwise, code is very good.  Logic is simple, direct, and efficient.  Commenting is sufficient.
+
+-2 Notice that your multiplication always prints 0.  This is because you are printing from $t3 instead of $t2, which is where the result of your 'mul' operation is stored.
 
 PART 3:
+Total: -30
+
+Does not compile.
+Come see me.  I see a lot of issues here regarding memory usage that we should clear up.
+
+Must always make sure that a program compiles because failure to compile = automatic 0 points for problem.  If it compiles you will earn at least some credit.
+
+Total Loss: -43

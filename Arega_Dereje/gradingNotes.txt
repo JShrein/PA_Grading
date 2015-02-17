@@ -18,5 +18,5 @@ If user enters 0 for N2, division by 0 occurs and the program breaks.  Good idea
 
 PART 3:
 -x Virtually NO comments (III)
--x $k0 and $k1 are reserved for OS use (k for kernel) and should NOT be used as general-purpose registers
+-2 $k0 and $k1 are intended for OS use (k for kernel) and should NOT be used as general-purpose registers even though it works.
 

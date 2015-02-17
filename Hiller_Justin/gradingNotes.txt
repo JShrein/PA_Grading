@@ -1,0 +1,31 @@
+Part 1:
+Total: -0
+
+Works sufficiently.
+Prints only in range 1 to 9
+
+Part 2:
+Total: -10
+
+Nice style and organization
+
+-8 Instructions require that your arithmetic results be stored in memory and retrieved from memory for printing.
+
+-2 Lines 54, 62, 70:
+	la $a0, ($sx) <-- This is improper because your registers $s3, $s4, and $s5 do NOT hold proper addresses, they hold values.  It works because ($sx) is saying "return to me the address of $sx", where the "addresses" here are your calculation results.  More proper to use 'move' or 'add' because your results are not in memory.
+
+Part 3:
+Total: -10
+
+Lines 16 - 23: Fine, now sum for me the odds in the range 1 and 10001 inclusive.  In other words, doing each calculation in code will work just fine, but you will very quickly get tired of this method.  However, this is not forbidden so no points lost.
+
+-6 The instructions require the intermediate result to be stored in memory.
+
+-2 Line 16:
+	Should be using 'li' if you want to load a literal number (as you did on line 13, 26, and 29).  It works but its bad style.
+
+-2 LIne 25:
+	Same as in problem 2, use 'move' or 'add'
+
+
+Total Loss: -20

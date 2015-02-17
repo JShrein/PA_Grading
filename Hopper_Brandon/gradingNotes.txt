@@ -1,5 +1,36 @@
+*Please separate each program into its own file*
+
 PART 1:
+Total: -20
+
+-20 You are prompting for input and storing the input, but beyond that nothing else.  If you had uncommented line 45 and commented line 49 then the program would basically work but you would still need to check for valid input.  As it is now, it doesn't matter what the user enters because the program just goes back into its original code and prints 9 regardless.
 
 PART 2:
+Total: -20
+
+Line 41 sets up to print an integer
+Line 42 writes integer 4 to $t1 (which overrides user input for 2nd number)
+Line 43 prints the integer, but since you didn't give it one to print it prints whatever is in $a0, which is some address (268501187 for me)
+
+-4 Lines 45 and 46, It is possible to multiply by repeated addition, but you're actually doubling the value in $t3.  You would need to use add $t3, $t3, $t0 since your user input is in $t0 and $t1.  You must preserve the proper sign in case user enters negative numbers, which you could do with some bitwise OR operations.  Also, it wont work if your 2nd operand is a 0 because you are adding and then branching.  If you branch first, and $t3 is initialized to 0, it will work.  Your best bet is to just use the'mul' instruction
+
+-8 Instructions require that you store your arithmetic results into memory, and retrieve them for printing.
+
+-4 Not printing your addition subtraction results, no points lost for multiplication printing, even though its the wrong value.
+
+-4 Instructions require a concluding message
 
 PART 3:
+Total: -18
+
+-10 Your program is crashing because of line 27
+	lw $a0, 0($t1)
+is saying "Load the word at address of ($t1) with 0 offset", but $t1 is NOT an address, it holds a literal value.  If you look at the error message it says Runtime exception at 0x00400030: fetch address not aligned on word boundary 0x00000051
+
+The value in that register is 81 at that time, and 81 in decimal = 51 in hex, and 51 is in between word boundaries (4, 8, 16, ..., 48, 52,...)
+
+-2 Also, that value shouldn't be 81.  It should be 64 since the sum of odds from 1 to 15 is 64, so your counter is counting one too many times.
+
+-6 Instructions require you to use a memory location to store and retrieve intermediate values.
+
+Total Loss: -58

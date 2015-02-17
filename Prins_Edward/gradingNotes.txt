@@ -1,5 +1,16 @@
 PART 1:
+Total:
+
+-5 Accepting input greater than declared array size is dangerous because your writing to memory thats outside the bounds of the array.
 
 PART 2:
+Total:
+
+
 
 PART 3:
+Total:
+
+
+
+Total Loss:

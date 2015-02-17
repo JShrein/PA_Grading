@@ -1,5 +1,31 @@
 PART 1:
+Total: -0
+
+Nice Work!
+Program works well for all test cases.
 
 PART 2:
+Total: -6
+
+-2 Instructions require to print intro including name
+
+-4 Instructions ask for concluding message
+
+use:
+	li $v0, 10
+	syscall
+to exit gracefully
 
 PART 3:
+Total: -2
+
+Line 18 is generally unsafe, use:
+	addi $s0, $zero, 1
+to ensure you know exactly what's in $s0
+
+-2 Incorrect output, sum of odds in range 1-15 is 64.  You're off by one in your loop.
+
+same as part 2, use graceful exit to get rid of the "dropped off bottom" message.
+
+
+Total Loss: -8
