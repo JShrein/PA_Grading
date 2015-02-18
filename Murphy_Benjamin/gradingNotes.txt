@@ -10,7 +10,7 @@ Style could be a bit cleaner, but you have plenty of comments and  your code is 
 PART 2:
 Total: -12
 
--8 Instructions require storing results to memory and retrieving them later for printing.
+-8 Instructions require that you store (-4) arithmetic results to memory and retrieve (-4) them from memory for printing
 -4 No concluding message
 
 PART 3:
@@ -29,4 +29,4 @@ lw....
 addi $sp, $sp, 4
 
 
-Total Loss: -12
+Score: 88

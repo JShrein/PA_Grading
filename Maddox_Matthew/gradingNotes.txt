@@ -28,4 +28,4 @@ to ensure you know exactly what's in $s0
 same as part 2, use graceful exit to get rid of the "dropped off bottom" message.
 
 
-Total Loss: -8
+Score: 92

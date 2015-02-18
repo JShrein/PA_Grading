@@ -25,4 +25,4 @@ for graceful exit, good style even though no errors/exceptions thrown
 (though Mars will say -- program is finished running (dropped off bottom) -- )
 
 
-Total Loss: -6
+Score: 94

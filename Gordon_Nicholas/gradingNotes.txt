@@ -27,4 +27,4 @@ Simple, direct, and efficient
 
 -1 for missing comments
 
-Total Loss: -10
+Score: 90

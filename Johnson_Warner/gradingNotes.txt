@@ -31,4 +31,4 @@ Total: -10
 
 -2 Missing some comments
 
-Total Loss: -20
+Score: 80

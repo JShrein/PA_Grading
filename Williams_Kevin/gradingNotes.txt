@@ -1,5 +1,24 @@
+Please don't put everything together into 1 file.  I have to run these to evaluate them.  Normally, if it doesn't compile I'll mark it 0 and move on, but I'll separate the code for you this time.  
+
 PART 1:
+Total: -5
+
+-5 Accepts input greater than 9.  This allows storing numbers beyond the bounds of the array.
 
 PART 2:
+Total: -0
+
+Very Nice!
+Great style and organization
+Followed all directions
 
 PART 3:
+Total: -13
+
+-5 Line 14: why testing against 11 instead of 15?
+-6 Instructions require to store and retrieve partial sum value from memory each iteration. 
+-2 Line 23: You have not called a function, so no need to return to $ra ($ra is 0 here so this results in a crash)
+
+
+
+Score: 82

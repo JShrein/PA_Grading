@@ -1,5 +1,25 @@
 PART 1:
+Total: -6
+
+-5 Accepts input greater than 9.  This allows storing numbers beyond the bounds of the array.
+-1 No comments for you changes
 
 PART 2:
+Total: -13
+
+-1 Very sparse comments, don't forget to add plenty of them.
+"#move it to $a0" isn't very clear...I see you're moving from $t3 to $a0, but what's in $t3?
+
+-8 Instructions require that you store (-4) arithmetic results to memory and retrieve (-4) them from memory for printing
+
+-4 No concluding message
 
 PART 3:
+Total: -11
+
+-5 No comments at all
+-6 No storing partial sum in memory and loading it from memory
+
+
+
+Score: 70

@@ -1,25 +1,25 @@
 PART 1:
--x Not limited to 9 fibonacci numbers.  Very dangerous to allow the user to exceed the bounds of the array set up in the beginning because you may overwrite other important addresses.  May or may not force the printing of unintended characters, depending on whether or not one of the fibonacci numbers writes over any of the print strings.
+Total: -5
+
+-5 Not limited to 9 fibonacci numbers.  Very dangerous to allow the user to exceed the bounds of the array set up in the beginning because you may overwrite other important addresses.  May or may not force the printing of unintended characters, depending on whether or not one of the fibonacci numbers writes over any of the print strings.
 
 #load immediate call 5 and
 #do
 aren't very descriptive but you have plenty of comments, no points lost.
 
 PART 2:
+Total: -8
+
 -8 Part of the exercise is to store arithmetic results in memory (instead of just using registers), then to retrieve them from memory for printing.
 Use: 
 	li $v0 10
 	syscall
 for graceful exit.  Mars gives no errors but other simulators give errors if you don't specifically exit the program
 
-Heading asks for Title and description but I suppose "Assembly Arithmetic Calculator" functions as both.
-
 PART 3:
--x Not enough comments III
+Total: -2
 
-Inefficient register usage.  If you follow execution 1 step at a time and look at $t2 - $t5 notice that $t2 and $t3 are basically always the same throughout the program, and the same for $t4 and $t5
-
-You could also limit the number of variables you're using.  You always load the value in storeValue but you never put anyting back in storeValue, so its a constant and could be stored in a register.
+-2 Inefficient register usage.  If you follow execution 1 step at a time and look at $t2 - $t5 notice that $t2 and $t3 are basically always the same throughout the program, and the same for $t4 and $t5.  You could also limit the number of variables you're using.  You always load the value in storeValue but you never put anyting back in storeValue, so its a constant and could be stored in a register.
 
 Instruction:
 	li $t6, 64
@@ -29,3 +29,5 @@ Instruction:
 	j while
 is not useful.  Its an unconditional jump to the next line, which was going to happen anyway.  No change in execution if you remove that line.
 
+
+Score: 85

@@ -1,5 +1,30 @@
 PART 1:
+Total: -5
+
+-5 Accepts input greater than 9.  This allows storing numbers beyond the bounds of the array.
 
 PART 2:
+Total: -22
+
+Make sure you add plenty of comments
+
+-8 Instructions require that you store (-4) arithmetic results to memory and retrieve (-4) them from memory for printing
+
+-10 Lines 38, 39: The purpose is to prompt the user for input and use those as operands.  There is no variation to this program so its usefulness is extremely limited.
+
+-4 No concluding message.
 
 PART 3:
+Total: -8
+
+Could use more comments.
+
+-6 Instructions require that you store your partial sum in memory and load it again during each iteration.
+
+-2 Line 31: Use 'move' or 'add', using la to move values between registers is not proper.
+
+Practicing loops is the perfect way to get over your discomfort in using loops.  Explicitly summing each value works....but its definitely inefficient.  Perfect job for a loop.  However, you're not *required* to use a loop, so no points lost.  
+
+
+Score: 65
+

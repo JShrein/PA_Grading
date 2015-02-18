@@ -17,4 +17,4 @@ Total: -0
 Works well, maybe a little odd to use global pointer, especially since there are no functions calls and since you declared plenty of space in the .data section, but it works.
 
 
-Total Loss: -10
+Score: 90

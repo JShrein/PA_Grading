@@ -1,0 +1,48 @@
+PART 1:
+Total: -5
+
+-5 Accepting input greater than declared array size is dangerous because your writing to memory thats outside the bounds of the array.
+
+Line 33: In other instances, may not be a good idea to write over size since it is tied to the max capacity of the array.
+
+Style is a bit rough with no indentation, but added sufficient comments.
+
+PART 2:
+Total: -10
+
+Lines 66, 67, 72, 73: Not required to store operands.
+
+-4 You are storing values properly, but not loading them properly.
+Lines 81, 91, and 101: Use lw instead of la.  Also, you've stored the values into sum, difference, and product, but then you go back and use la, but the values in $s0, $s1, and $s2 are NOT addresses, they are your values.
+
+	add $s0, $t0, $t1
+	sw $s0, sum
+
+	...later
+
+	la $s0, sum
+	lw $s0, ($s0)
+	OR JUST
+	lw $s0, sum
+
+-4 Lines 67, 74: You've loaded the address of num1 and num2, now you MUST load the word from the address, otherwise you're operating with large numbers that represent the addresses of the numbers in memory that you actually want to operate on:
+	lw $t0, ($t0)
+	lw $t1, ($t1)
+
+-2 Lines 84, 94, 104: You're trying to print a space, but you're not loading the proper instruction:
+	li $v0, 4
+
+Be careful in how you declare variables in the .data section.
+It appears that declaring some strings, then some words, then other strings can cause problems. You should put them all together by type.
+
+Your program basically does all of the things required by the instructions, just incorrectly.
+
+
+PART 3:
+Total: -30
+
+Missing
+
+
+
+Score: 55

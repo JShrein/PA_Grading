@@ -1,22 +1,27 @@
 PART 1:
-Lines 30-35
--x Provided NO comments for your changes (II)
+Total: -5
 
--x Doesn't limit the user to 9 and therefore breaks on relatively small input.  This is unsafe because your loop is accessing addresses that are out of the bounds set in fibs.  (For my test, output is invalid for input > 21 where if you allocate more memory you will see that it works fine)
+-5 Doesn't limit the user to 9 and therefore breaks on relatively small input.  This is unsafe because your loop is accessing addresses that are out of the bounds set in fibs.  (For my test, output is invalid for input > 21 where if you allocate more memory you will see that it works fine)
 
 In fact if you try to run it with 25 numbers and pay attention to $a0 after it loads the "space" memory address, you may see the value 268501076, which is where the space character is stored, but for 25 fibonacci numbers, the sequence ends at 268501084, which means that the space character " " has been replaced with another character.
 
 PART 2:
-Comments are Fairly Limited (I)
+Total: -9
+
+-1 Comments are Fairly Limited
 
 prompt0 and prompt1 are good but 
-prompt2 - prompt5 is misleading because those strings aren't really prompting the user for anything.  Good style and readability dictates that more descriptive names should be used.
+prompt2 - prompt5 is misleading because those strings aren't really prompting the user for anything.  
 
 -8 Part of the exercise is to store arithmetic results in memory (instead of just using registers), then to retrieve them from memory for printing.
 
 If user enters 0 for N2, division by 0 occurs and the program breaks.  Good idea to protect against that.  No points lost since division was not required.
 
 PART 3:
--x Virtually NO comments (III)
+Total: -7
+
+-5 Virtually NO comments (III)
 -2 $k0 and $k1 are intended for OS use (k for kernel) and should NOT be used as general-purpose registers even though it works.
 
+
+Score: 79

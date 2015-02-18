@@ -23,4 +23,4 @@ Total: -2
 
 Very good, simple, and efficient
 
-Total Loss: -28
+Score: 72

@@ -1,5 +1,27 @@
 PART 1:
+Total: -0
+
+Nice Work!
+
+Line 29: Your prompt is off by 1 (asks for input in range 1 - 9 but accepts 0), but no pts. lost.
+Line 39: In other instances, may not be a good idea to write over size since it is tied to the max capacity of the array.
 
 PART 2:
+Total: -8
+
+-8 Instructions require that your arithmetic results be stored in memory and retrieved from memory for printing.
+
+Code style and organization is very good.
+Plenty of comments
 
 PART 3:
+Total: -6
+
+-6 The instructions require the partial sum to be stored and retrieved from memory each iteration.
+
+Again, good style and organization.
+Program is simple and efficient.
+
+
+
+Score: 86

@@ -15,4 +15,6 @@ Very Good.  Again, program performs as expected.
 
 Your implementation is good and works well, though if you wanted to be as efficient as possible you could just decrement by 2 to avoid the two multiplications and one of the branches, but this is very good work.
 
-Total Loss: -0
+
+
+Score: 100

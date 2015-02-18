@@ -23,4 +23,4 @@ Total: -8
 
 Otherwise, program is good...very simple and efficient.
 
-Total Loss: -27
+Score: 73

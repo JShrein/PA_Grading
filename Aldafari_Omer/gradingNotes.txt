@@ -1,0 +1,28 @@
+LATE SUBMISSION
+
+PART 1:
+Total: -5
+
+-5 Accepting input greater than declared array size is dangerous because your writing to memory thats outside the bounds of the array.
+
+PART 2:
+Total: -13
+
+-1 Comments are a bit limited
+
+-8 Instructions require that you store (-4) arithmetic results to memory and retrieve (-4) them from memory for printing
+
+-4 No concluding message
+
+PART 3:
+Total: -11
+
+-5 Zero comments.  Please make sure to add comments next time, its easy way to NOT lose points
+
+-6 Instructions require that you store your partial sum in memory and load it again during each iteration.
+
+Its really a well written program, very simple, efficient, and effective, but you MUST follow all instructions.
+
+
+
+Score: 71

@@ -16,9 +16,9 @@ It is not necessary to use 'la $ax, ($sx)'.  MIPS is perfectly happy to multiply
 Other portions of the program function correctly.
 
 PART 3:
-Total: -1
+Total: -2
 
--1 Line 37 and 38, notice these are doing the exact same thing each time through the loop.  Why not just use your counter as your odds?
+-2 Line 37 and 38, notice these are doing the exact same thing each time through the loop.  Why not just use your counter as your odds?
 
-Total Loss: -11
+Score: 88
 

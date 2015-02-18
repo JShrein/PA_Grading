@@ -1,5 +1,21 @@
 PART 1:
+Total: -0
+
+Good Job! Works well.
 
 PART 2:
+Total: -6
+
+-2 Valiant effort in attempting to implement multiplication, and it works well for non-negative input, but crashes for negative input (negative B operand fails, negative A operand works) (Half credit for half a multiplication operation).  Among those who attempted this method, so far your's is the closest to being correct.  However, I recommend using the 'mul' opcode.
+
+-4 Instructions require a concluding message.
 
 PART 3:
+Total: -0
+
+Nice work!
+
+
+
+Score: 94
+

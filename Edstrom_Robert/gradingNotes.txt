@@ -5,18 +5,17 @@ Good work.
 Simple, efficient, and effective changes
 
 PART 2:
-Total: -8
+Total: -10
 
 Excellent work.
 Top notch style and commenting, well organized and very easy to read
 The directions require that your results must be stored in memory and retrieved for printing.
 
-Your use of la on $t2 is interesting:
+-2 Your use of la on $t2 is interesting:
 	la $a0, ($t2)
 The direct result of your calculation is stored in $t2 (meaning its NOT an address), but when you use la $a0, ($t2) you're treating the value of $t2 as an address and NOT as a literal value.  It works fine because when you print, the value in $a0 (which was masquerading as an address) turns out to be the result of your calculation.  It works so no points lost, but simply using move or add would be more proper.
 
--4 for not storing results
--4 for not retrieving results.
+-8 Instructions require that you store (-4) arithmetic results to memory and retrieve (-4) them from memory for printing
 
 PART 3:
 Total: -0
@@ -24,4 +23,4 @@ Total: -0
 Nice job, well organized and easy to read just like the other parts.
 
 
-Total Loss: -8
+Score: 90

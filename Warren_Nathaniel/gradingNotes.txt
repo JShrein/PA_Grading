@@ -1,5 +1,22 @@
 PART 1:
+Total: -5
+
+-5 Accepts input greater than 9.  This allows storing numbers beyond the bounds of the array.
 
 PART 2:
+Total: -11
+
+-1 Not very many comments
+
+-2 You're doing subtraction backwards and answer is negative of what it should be.
+
+-8 Instructions require that you store (-4) arithmetic results to memory and retrieve (-4) them from memory for printing
 
 PART 3:
+Total: -2
+
+-2 Lines 11, 13-15:  You're loading (from memory) the value 1 into $t0 each iteration, and setting $t2 to 2, then you're multiplying $t0 and $t2 to get the value 2 in $t3, then adding $t3 to current value in $t4.....why?  Very inefficient to do all of this, just use 'addi $t4, $t4, 2' and be done with it.
+
+
+
+Score: 82

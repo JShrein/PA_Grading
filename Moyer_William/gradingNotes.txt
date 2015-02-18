@@ -19,4 +19,4 @@ Total: -2
 
 -2 $k0 and $k1 are intended for OS use (k for kernel) and should NOT be used as general-purpose registers even though it works.
 
-Total Loss: -10
+Score: 90

@@ -28,4 +28,4 @@ Lines 16 - 23: Fine, now sum for me the odds in the range 1 and 10001 inclusive.
 	Same as in problem 2, use 'move' or 'add'
 
 
-Total Loss: -20
+Score: 80

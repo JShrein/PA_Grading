@@ -13,4 +13,4 @@ Total: -0
 
 Good job
 
-Total Loss: -0
+Score: 100

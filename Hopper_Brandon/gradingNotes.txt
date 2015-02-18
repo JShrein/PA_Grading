@@ -33,4 +33,4 @@ The value in that register is 81 at that time, and 81 in decimal = 51 in hex, an
 
 -6 Instructions require you to use a memory location to store and retrieve intermediate values.
 
-Total Loss: -58
+Score: 42

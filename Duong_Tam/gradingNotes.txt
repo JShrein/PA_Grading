@@ -15,4 +15,4 @@ Total: -0
 All tasks completed adequately.
 Using div to check even/odd works well but simply incrementing your counter by 2 and adding it to your total would be more efficient.
 
-Total Loss: -0
+Score: 100

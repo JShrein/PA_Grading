@@ -15,19 +15,8 @@ Careful with division if user enters 0 for 2nd number. Division and mod by 0 are
 -2 You're using la to load the values in $t1 and $t2 when you want to print operands
 la $a0, ($t1)
 This is unnecessary and sort of esoteric way to access the values in $t1 and $t2 (which are NOT addresses)
-move $a0, $t1 is a better way to move the values.
+Use 'move' or 'add' instead
 
-The move pseudo instruction moves the contents of one register into another register.
-	move $1, $2
-translates to
-	add $1, $2, $0
-
-Load Address (la)
-	la $a0,address
-translates to
-  lui $at, 4097 (0x1001 → upper 16 bits of $at).
-  ori $a0,$at,disp 
-where the immediate (“disp”) is the number of bytes between the first data location (always 0x 1001 0000) and the address of the first byte in the string.
 
 Nicely organized and works well.
 
@@ -38,4 +27,4 @@ Where is part 3???
 -30
 
 
-Total Loss: -37
+Total Loss: 63

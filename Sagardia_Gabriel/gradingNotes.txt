@@ -1,0 +1,25 @@
+PART 1:
+Total: -5
+
+-5 Accepting input greater than declared array size is dangerous because your writing to memory thats outside the bounds of the array.
+
+Line 36: I see what you're trying to do, and it *would* work, except that when you're testing against $s5, you're actually testing against the value of the memory location that $s5 holds, which is something like 268501068 (may be different for you, but should still be a large number).  As far as that branch instruction is concerned, it doesn't care if that value is an address (which is just a number like any other number) or a regular value, so your test ALWAYS evaluates to false, and so input it never limited.
+
+
+PART 2:
+Total: -8
+
+-4 Program requires that you print an introduction including your name, program's title, and program's purpose
+-4 Instructions require that you print a concluding message.
+
+You'r program comment asks how to properly load and store values into memory but it looks like you figured it out.
+
+PART 3:
+Total: -0
+
+Good Job! Program works as it should and all instructions were followed.
+You could improve efficiency if you chose to but it works well.
+
+
+
+Score: 87

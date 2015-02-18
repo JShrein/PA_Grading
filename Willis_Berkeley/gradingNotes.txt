@@ -1,5 +1,25 @@
 PART 1:
+Total: -0
+
+Good! Program works correctly
 
 PART 2:
+Total: -12
+
+-2 Line 30: use 'move' or 'add' to shift between registers.  la works but its a roundabout way of doing it because your $s0 is not an address, its just a simple value.
+
+-8 Instructions require that you store (-4) arithmetic results to memory and retrieve (-4) them from memory for printing
+
+-2 As you say, your multiplication is not yet complete.  Half credit for half a multiplication operation.  (Consider just using 'mul' instead)
 
 PART 3:
+Total: -8
+
+-6 Instructions require that you store your partial sum in memory and load it again during each iteration.
+
+-2 Line 10: Use 'move' or 'add' instead
+
+Works well, simple and efficient
+
+
+Score: 80
